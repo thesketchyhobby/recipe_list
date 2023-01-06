@@ -12,7 +12,7 @@ import Foundation
 struct RecipeList2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipeTabView()
         }
     }
 }
