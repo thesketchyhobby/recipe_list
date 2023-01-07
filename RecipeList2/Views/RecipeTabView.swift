@@ -15,18 +15,20 @@ struct RecipeTabView: View {
                     VStack{
                         Image(systemName: "star.fill")
                         Text("Featured")
+                    }
+                }
             ContentView()
-                            .tabItem{
-                                VStack{
-                                    Image(systemName: "list.bullet")
-                                    Text("List")
+                .tabItem{
+                    VStack{
+                        Image(systemName: "list.bullet")
+                        Text("List")
                                 }
                             }
                     }
                 }
         }
-    }
-}
+    
+
 
 struct RecipeTabView_Previews: PreviewProvider {
     static var previews: some View {
