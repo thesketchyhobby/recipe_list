@@ -34,9 +34,7 @@ struct RecipeDetailView: View {
             Divider()
                 //MARK: Directions
                 VStack{
-                    Text("Directions")
-                        .font(.headline)
-                        .padding([.top,.bottom], 5)
+                   
                     VStack(alignment: .leading) {
                         Text("Directions")
                             .font(.headline)
