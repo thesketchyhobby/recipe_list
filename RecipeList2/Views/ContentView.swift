@@ -13,7 +13,16 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView{
-            List(model.recipes){r in
+            VStack(alignment: .leading){
+            Text("All Recipes")
+                    .bold()
+                    .padding(.top, 40)
+                    .font(.largeTitle)
+                    
+            ScrollView{
+                LazyVStack(alignment: .leading){
+                    ForEach(model.recipes){r in
+                
             NavigationLink(
                 destination: RecipeDetailView(recipe: r),
                 label:{
@@ -26,13 +35,16 @@ struct ContentView: View {
                         .clipped()
                         .cornerRadius(5)
                     Text(r.name)
+                            .foregroundColor(.black)
             }
+                }
                 
-            })
+            )}
             }
-        
-    
-        .navigationBarTitle("All Recipes")
+            }
+            }
+        .navigationBarHidden(true)
+        .padding(.leading)
         
         }
     }
@@ -42,6 +54,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(RecipeModel())
     }
 }
 
