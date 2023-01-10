@@ -18,6 +18,7 @@
 		127F64E8296515EB0042CF66 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F64E7296515EB0042CF66 /* RecipeModel.swift */; };
 		127F64EA296516670042CF66 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 127F64E9296516670042CF66 /* recipes.json */; };
 		127F64F12965F82F0042CF66 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F64F02965F82F0042CF66 /* RecipeDetailView.swift */; };
+		1289AECE296DE78700C88D93 /* Highlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1289AECD296DE78700C88D93 /* Highlights.swift */; };
 		12FD8FC3296D03EF00BEA417 /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD8FC2296D03EF00BEA417 /* Rational.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		127F64E7296515EB0042CF66 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		127F64E9296516670042CF66 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 		127F64F02965F82F0042CF66 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		1289AECD296DE78700C88D93 /* Highlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highlights.swift; sourceTree = "<group>"; };
 		12FD8FC2296D03EF00BEA417 /* Rational.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 				127F64D2296513F40042CF66 /* ContentView.swift */,
 				12087667296A0E370095408A /* RecipeFeaturedView.swift */,
 				127F64F02965F82F0042CF66 /* RecipeDetailView.swift */,
+				1289AECD296DE78700C88D93 /* Highlights.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				127F64D1296513F40042CF66 /* RecipeList2App.swift in Sources */,
 				127F64E62965153F0042CF66 /* DataService.swift in Sources */,
 				12087668296A0E370095408A /* RecipeFeaturedView.swift in Sources */,
+				1289AECE296DE78700C88D93 /* Highlights.swift in Sources */,
 				1208766429689F4F0095408A /* RecipeTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
