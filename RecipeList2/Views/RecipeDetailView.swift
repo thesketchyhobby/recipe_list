@@ -4,7 +4,6 @@
 //
 //  Created by Heather Escoto on 1/4/23.
 //
-
 import SwiftUI
 
 struct RecipeDetailView: View {
@@ -44,6 +43,7 @@ struct RecipeDetailView: View {
                         .padding([.bottom, .top], 5)
                     
                     ForEach (recipe.ingredients) { item in
+                        
                         Text("• " + RecipeModel.getPortion(ingredient: item, recipeServings: recipe.servings, targetServings: selectedServingSize) + " " + item.name.lowercased())
                     }
                 }
